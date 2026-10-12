@@ -1,0 +1,87 @@
+/* Fondo negro y texto blanco */
+html,
+body,
+.swagger-ui {
+    background: #080808 !important;
+    color: #ffffff !important;
+}
+
+.swagger-ui .topbar,
+.swagger-ui .scheme-container,
+.swagger-ui .information-container {
+    background: #080808 !important;
+}
+
+.swagger-ui,
+.swagger-ui .info,
+.swagger-ui .info h1,
+.swagger-ui .info h2,
+.swagger-ui .info h3,
+.swagger-ui .info p,
+.swagger-ui .opblock-tag,
+.swagger-ui label,
+.swagger-ui table,
+.swagger-ui .parameter__name,
+.swagger-ui .parameter__type,
+.swagger-ui .response-col_status {
+    color: #ffffff !important;
+}
+
+/* Cuadros GET en rojo */
+.swagger-ui .opblock.opblock-get {
+    background: #200909 !important;
+    border: 1px solid #ff3030 !important;
+}
+
+.swagger-ui .opblock.opblock-get .opblock-summary-method {
+    background: #e00000 !important;
+    color: #ffffff !important;
+}
+
+/* Cuadros POST en rojo */
+.swagger-ui .opblock.opblock-post {
+    background: #200909 !important;
+    border: 1px solid #ff3030 !important;
+}
+
+.swagger-ui .opblock.opblock-post .opblock-summary-method {
+    background: #e00000 !important;
+    color: #ffffff !important;
+}
+
+/* Interior de los endpoints */
+.swagger-ui .opblock-body,
+.swagger-ui .opblock-section-header,
+.swagger-ui .responses-wrapper,
+.swagger-ui .model-box {
+    background: #141414 !important;
+    color: #ffffff !important;
+}
+
+/* Campos de entrada */
+.swagger-ui input,
+.swagger-ui select,
+.swagger-ui textarea {
+    background: #181818 !important;
+    color: #ffffff !important;
+    border: 1px solid #555555 !important;
+}
+
+/* Botones */
+.swagger-ui .btn {
+    color: #ffffff !important;
+    border-color: #ff3030 !important;
+}
+
+.swagger-ui .btn.execute {
+    background: #d90000 !important;
+}
+
+.swagger-ui .btn.authorize {
+    background: #181818 !important;
+}
+
+/* Enlaces */
+.swagger-ui a {
+    color: #ff5555 !important;
+}
