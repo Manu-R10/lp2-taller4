@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM RAI | Administración</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="encabezado">
+        <h1>GYM <span>RAI</span></h1>
+        <p>Administración del gimnasio</p>
+    </header>
+
+    <main class="contenedor">
+        <section class="panel">
+            <h2>Planes disponibles</h2>
+            <div id="planes" class="tarjetas">
+                <p>Cargando planes...</p>
+            </div>
+        </section>
+
+        <section class="panel">
+            <h2>Miembros registrados</h2>
+            <div class="tabla-contenedor">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Edad</th>
+                            <th>Teléfono</th>
+                            <th>Plan</th>
+                        </tr>
+                    </thead>
+                    <tbody id="miembros">
+                        <tr>
+                            <td colspan="4">Cargando miembros...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <p id="mensaje" role="status"></p>
+    </main>
+
+    <footer>
+        <p>GYM RAI &copy; 2026</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #080808;
+    color: #ffffff;
+}
+
+.encabezado {
+    padding: 35px 20px;
+    text-align: center;
+    background: #111111;
+    border-bottom: 3px solid #e00000;
+}
+
+.encabezado h1 {
+    margin: 0;
+    font-size: 42px;
+    letter-spacing: 4px;
+}
+
+.encabezado h1 span {
+    color: #ff2020;
+}
+
+.encabezado p {
+    color: #cccccc;
+}
+
+.contenedor {
+    width: min(1100px, 92%);
+    margin: 30px auto;
+}
+
+.panel {
+    margin-bottom: 30px;
+    padding: 24px;
+    background: #141414;
+    border: 1px solid #292929;
+    border-radius: 12px;
+}
+
+h2 {
+    color: #ff3030;
+    border-bottom: 1px solid #333333;
+    padding-bottom: 12px;
+}
+
+.tarjetas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 16px;
+}
+
+.tarjeta {
+    padding: 20px;
+    background: #202020;
+    border-left: 4px solid #e00000;
+    border-radius: 8px;
+}
+
+.tarjeta h3 {
+    margin-top: 0;
+}
+
+.precio {
+    color: #ff3030;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.tabla-contenedor {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 14px;
+    text-align: left;
+    border-bottom: 1px solid #333333;
+}
+
+th {
+    background: #b80000;
+    color: #ffffff;
+}
+
+tr:hover {
+    background: #222222;
+}
+
+#mensaje {
+    color: #ff6666;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    color: #aaaaaa;
+    border-top: 1px solid #292929;
+}
+
+@media (max-width: 600px) {
+    .encabezado h1 {
+        font-size: 32px;
+    }
+
+    .panel {
+        padding: 15px;
+    }
+}
