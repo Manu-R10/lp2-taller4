@@ -7,11 +7,7 @@
 
 ## Autor
 
-- [@estudiante](https://www.github.com/Manu-R10)
-- 
-## Captura de pantalla
-
-![Página principal de GYM RAI](docs/images/gymrai.png)
+- [@Manuel Raigosa](https://www.github.com/Manu-R10)
 
 ## Descripción del Proyecto
 # GYM RAI 
