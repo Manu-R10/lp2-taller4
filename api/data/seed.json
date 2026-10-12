@@ -18,20 +18,20 @@
   ],
   "miembros": [
     {
-      "nombre": "Carlos Ramirez",
-      "edad": 25,
+      "nombre": "Manuel Raigosa",
+      "edad": 22,
       "telefono": "3001234567",
       "plan": "Basico"
     },
     {
-      "nombre": "Laura Martinez",
-      "edad": 22,
+      "nombre": "Stiven Garcia",
+      "edad": 19,
       "telefono": "3017654321",
       "plan": "Premium"
     },
     {
-      "nombre": "Andres Gomez",
-      "edad": 30,
+      "nombre": "Sebastian Marroquin",
+      "edad": 24,
       "telefono": "3029876543",
       "plan": "Anual"
     }
