@@ -1,0 +1,39 @@
+{
+  "planes": [
+    {
+      "nombre": "Basico",
+      "precio": 60000,
+      "duracion_dias": 30
+    },
+    {
+      "nombre": "Premium",
+      "precio": 100000,
+      "duracion_dias": 30
+    },
+    {
+      "nombre": "Anual",
+      "precio": 900000,
+      "duracion_dias": 365
+    }
+  ],
+  "miembros": [
+    {
+      "nombre": "Carlos Ramirez",
+      "edad": 25,
+      "telefono": "3001234567",
+      "plan": "Basico"
+    },
+    {
+      "nombre": "Laura Martinez",
+      "edad": 22,
+      "telefono": "3017654321",
+      "plan": "Premium"
+    },
+    {
+      "nombre": "Andres Gomez",
+      "edad": 30,
+      "telefono": "3029876543",
+      "plan": "Anual"
+    }
+  ]
+}
