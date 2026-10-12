@@ -7,17 +7,20 @@
 
 ## Autor
 
-- [@estudiante](https://www.github.com/estudiante)
+- [@estudiante](https://www.github.com/Manu-R10)
+- 
+## Captura de pantalla
+
+![Página principal de GYM RAI](docs/images/gymrai.png)
 
 ## Descripción del Proyecto
+# GYM RAI 
+Es una aplicación web diseñada para administrar los miembros y los planes de membresía de un gimnasio. El sistema tendrá dos entidades relacionadas: **Plan**, con los campos `id`, `nombre`, `precio` y `duracion_dias`; y **Miembro**, con los campos `id`, `nombre`, `edad`, `telefono` y `plan_id`. La relación será de uno a muchos, ya que un plan puede tener varios miembros inscritos. La aplicación permitirá listar los miembros, consultar sus detalles, filtrar por plan y visualizar los planes disponibles. El sistema estará desarrollado con FastAPI, SQLAlchemy y PostgreSQL, tendrá un frontend diseñado en v0.app y utilizará Nginx como reverse proxy. Los cuatro contenedores se administrarán mediante Docker Compose.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ut quam dolor. Quisque elementum est sed massa gravida convallis. Donec volutpat turpis eget lectus feugiat congue. Morbi rutrum auctor eleifend. Etiam iaculis libero tellus, vel aliquet erat tempor sed. Duis efficitur quam vel sapien luctus, sed semper lacus mollis. Suspendisse non nunc eleifend, aliquet elit eget, condimentum augue.
-
-Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus vel nibh fringilla, porta elit vel, consequat libero. Nulla et libero ac nulla ultricies sollicitudin. Sed viverra non nulla id convallis. Morbi vel varius lacus, in maximus nunc. Praesent sed semper diam. Pellentesque vehicula nulla augue, ut porta dolor consequat at.
 
 ## Proceso
+En este proyecto desarrollé una aplicación web para administrar un gimnasio, utilizando Docker Compose para ejecutar cuatro servicios: frontend, API, base de datos PostgreSQL y proxy inverso Nginx. Implementé una API con FastAPI y SQLAlchemy para gestionar los planes y miembros, y diseñé una interfaz web con HTML, CSS y JavaScript para consultar los datos y visualizar los detalles. Finalmente, configuré Nginx como único punto de acceso público y utilicé Git y GitHub para guardar y publicar los cambios del proyecto.
 
-Morbi quam lectus, tempus sit amet mi non, facilisis dignissim erat. Aenean tortor libero, rhoncus eu eleifend ut, volutpat id nisi. Ut porta eros at ante rutrum pharetra. Integer nec nulla dictum, vestibulum ligula id, hendrerit ex. Morbi eget tortor metus.
 
 [GUIA.md](docs/GUIA.md)
 
