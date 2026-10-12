@@ -1,53 +1,128 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GYM RAI | Administración</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="theme-color" content="#101010">
+    <title>GYM RAI | Entrena para superarte</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/app.js" defer></script>
 </head>
 <body>
-    <header class="encabezado">
-        <h1>GYM <span>RAI</span></h1>
-        <p>Administración del gimnasio</p>
+    <header class="navbar">
+        <a href="/" class="brand">
+            <span class="brand-icon">R</span>
+            <span>GYM <strong>RAI</strong><small>FITNESS CLUB</small></span>
+        </a>
+
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#planes">Planes</a>
+            <a href="#miembros-seccion">Miembros</a>
+        </nav>
+
+        <a class="nav-button" href="#planes">Ver planes <span>↗</span></a>
     </header>
 
-    <main class="contenedor">
-        <section class="panel">
-            <h2>Planes disponibles</h2>
-            <div id="planes" class="tarjetas">
-                <p>Cargando planes...</p>
+    <main>
+        <section class="hero" id="inicio">
+            <div class="hero-content">
+                <span class="eyebrow"><span class="live-dot"></span> TU MEJOR VERSIÓN COMIENZA AQUÍ</span>
+
+                <h1>NO HAY<br>EXCUSAS.<br><span>SOLO PROGRESO.</span></h1>
+
+                <p>
+                    Construye fuerza, supera tus límites y transforma tu rutina.
+                    Tu próximo nivel empieza en GYM RAI.
+                </p>
+
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#planes">Explorar planes <span>→</span></a>
+                    <a class="button button-secondary" href="#miembros-seccion">Ver miembros</a>
+                </div>
+
+                <div class="hero-stats">
+                    <div><strong>01</strong><span>Tu objetivo</span></div>
+                    <div><strong>02</strong><span>Tu disciplina</span></div>
+                    <div><strong>03</strong><span>Tu resultado</span></div>
+                </div>
+            </div>
+
+            <div class="hero-art" aria-label="Ilustración decorativa de entrenamiento">
+                <div class="art-glow"></div>
+                <div class="art-circle circle-one"></div>
+                <div class="art-circle circle-two"></div>
+                <div class="art-number">RAI<span>.</span></div>
+                <div class="art-label">
+                    <span class="live-dot"></span>
+                    <div><strong>ENTRENA DURO</strong><small>LOS RESULTADOS HABLAN</small></div>
+                </div>
+                <div class="art-cross">×</div>
             </div>
         </section>
 
-        <section class="panel">
-            <h2>Miembros registrados</h2>
-            <div class="tabla-contenedor">
+        <section class="section" id="planes">
+            <div class="section-heading">
+                <div>
+                    <span class="eyebrow">ENCUENTRA TU NIVEL</span>
+                    <h2>ELIGE TU <span>PLAN.</span></h2>
+                    <p>Una inversión en ti mismo siempre vale la pena.</p>
+                </div>
+                <span class="section-tag">MEMBRESÍAS / 01</span>
+            </div>
+
+            <div class="planes-grid" id="planes">
+                <p class="loading">Cargando planes...</p>
+            </div>
+        </section>
+
+        <section class="members-section" id="miembros-seccion">
+            <div class="section-heading">
+                <div>
+                    <span class="eyebrow">NUESTRA COMUNIDAD</span>
+                    <h2>MIEMBROS <span>GYM RAI.</span></h2>
+                    <p>Personas comprometidas con su progreso.</p>
+                </div>
+                <span class="section-tag">COMUNIDAD / 02</span>
+            </div>
+
+            <div class="table-wrapper">
                 <table>
                     <thead>
                         <tr>
-                            <th>Nombre</th>
-                            <th>Edad</th>
-                            <th>Teléfono</th>
-                            <th>Plan</th>
+                            <th>MIEMBRO</th>
+                            <th>EDAD</th>
+                            <th>TELÉFONO</th>
+                            <th>PLAN ACTUAL</th>
+                            <th>DETALLES</th>
                         </tr>
                     </thead>
                     <tbody id="miembros">
-                        <tr>
-                            <td colspan="4">Cargando miembros...</td>
-                        </tr>
+                        <tr><td colspan="5" class="loading">Cargando miembros...</td></tr>
                     </tbody>
                 </table>
             </div>
         </section>
 
-        <p id="mensaje" role="status"></p>
+        <section class="message-section" id="mensaje" aria-live="polite"></section>
+
+        <section class="bottom-banner">
+            <div>
+                <span class="eyebrow">NO ESPERES AL LUNES</span>
+                <h2>EL CAMBIO EMPIEZA <span>HOY.</span></h2>
+            </div>
+            <a class="button button-primary" href="#planes">Encuentra tu plan ↗</a>
+        </section>
     </main>
 
     <footer>
-        <p>GYM RAI &copy; 2026</p>
+        <a href="/" class="brand footer-brand">
+            <span class="brand-icon">R</span>
+            <span>GYM <strong>RAI</strong><small>FITNESS CLUB</small></span>
+        </a>
+        <p>DISCIPLINA. FUERZA. PROGRESO.</p>
+        <span>© 2026 GYM RAI · TODOS LOS DERECHOS RESERVADOS</span>
     </footer>
-
-    <script src="app.js"></script>
 </body>
 </html>
